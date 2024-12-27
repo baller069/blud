@@ -8,7 +8,7 @@ use Discord\WebSockets\Intents;
 use Discord\WebSockets\Event;
 
 $discord = new Discord([
-    'token' => 'MTMyMDc5Mjc0ODE5NzkzNzI0Ng.GBpQhL.nRF0psIKZTiNjd0BD5LFoZcud6ds7FtOFasyDE',
+    'token' => 'TEST_TOKEN',
     'intents' => Intents::getDefaultIntents()
 //      | Intents::MESSAGE_CONTENT, // Note: MESSAGE_CONTENT is privileged, see https://dis.gd/mcfaq
 ]);
